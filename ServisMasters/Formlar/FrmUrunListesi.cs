@@ -16,5 +16,10 @@ namespace ServisMasters.Formlar
         {
             InitializeComponent();
         }
+        DbTeknikServisEntities db = new DbTeknikServisEntities();
+        private void FrmUrunListesi_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
