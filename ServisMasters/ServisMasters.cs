@@ -29,6 +29,11 @@ namespace ServisMasters
             fr.Show();
         }
 
-
+        private void BtnKategoriListesiFormu_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmKategoriListesi fr = new Formlar.FrmKategoriListesi();
+            fr.MdiParent = this;
+            fr.Show();
+        }
     }
 }
