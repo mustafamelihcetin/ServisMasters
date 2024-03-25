@@ -63,22 +63,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Formlar\FrmKategoriListesi.cs">
+    <Compile Include="Formlar\UrunlerSekmesi\FrmKategoriListesi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formlar\FrmKategoriListesi.Designer.cs">
+    <Compile Include="Formlar\UrunlerSekmesi\FrmKategoriListesi.Designer.cs">
       <DependentUpon>FrmKategoriListesi.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formlar\FrmUrunListesi.cs">
+    <Compile Include="Formlar\UrunlerSekmesi\FrmUrunListesi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formlar\FrmUrunListesi.Designer.cs">
+    <Compile Include="Formlar\UrunlerSekmesi\FrmUrunListesi.Designer.cs">
       <DependentUpon>FrmUrunListesi.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formlar\FrmYeniUrun.cs">
+    <Compile Include="Formlar\UrunlerSekmesi\FrmYeniUrun.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formlar\FrmYeniUrun.Designer.cs">
+    <Compile Include="Formlar\UrunlerSekmesi\FrmYeniUrun.Designer.cs">
       <DependentUpon>FrmYeniUrun.cs</DependentUpon>
     </Compile>
     <Compile Include="ServisMasters.cs">
@@ -149,13 +149,13 @@
     <Compile Include="TBLURUNTAKIP.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Formlar\FrmKategoriListesi.resx">
+    <EmbeddedResource Include="Formlar\UrunlerSekmesi\FrmKategoriListesi.resx">
       <DependentUpon>FrmKategoriListesi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formlar\FrmUrunListesi.resx">
+    <EmbeddedResource Include="Formlar\UrunlerSekmesi\FrmUrunListesi.resx">
       <DependentUpon>FrmUrunListesi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formlar\FrmYeniUrun.resx">
+    <EmbeddedResource Include="Formlar\UrunlerSekmesi\FrmYeniUrun.resx">
       <DependentUpon>FrmYeniUrun.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ServisMasters.resx">
@@ -206,6 +206,15 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Formlar\AraçlarSekmesi\" />
+    <Folder Include="Formlar\CarilerSekmesi\" />
+    <Folder Include="Formlar\FaturalarSekmesi\" />
+    <Folder Include="Formlar\PersonelSekmesi\" />
+    <Folder Include="Formlar\RaporlarSekmesi\" />
+    <Folder Include="Formlar\İletisimSekmesi\" />
+    <Folder Include="Formlar\İstatistiklerSekmesi\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
