@@ -35,7 +35,7 @@ namespace ServisMasters.Formlar
             // 
             // pictureEdit1
             // 
-            this.pictureEdit1.Location = new System.Drawing.Point(12, 27);
+            this.pictureEdit1.Location = new System.Drawing.Point(12, 12);
             this.pictureEdit1.Name = "pictureEdit1";
             this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.pictureEdit1.Size = new System.Drawing.Size(111, 71);
