@@ -170,6 +170,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EntityDeploy Include="Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -203,6 +204,17 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\icons8_ok_120px.png" />
+    <None Include="Resources\icons8_data_recovery_120px.png" />
+    <None Include="Resources\icons8_category_120px.png" />
+    <None Include="Resources\icons8_warehouse_120px.png" />
+    <None Include="Resources\icons8_sell_stock_120px.png" />
+    <None Include="Resources\icons8_cheque_120px.png" />
+    <None Include="Resources\icons8_identification_documents_480px1.png" />
+    <None Include="Resources\icons8_commercial_120px.png" />
+    <None Include="Resources\icons8_commercial.ico" />
+    <None Include="Resources\icons8_identification_documents_480px.png" />
+    <None Include="Resources\icons8_name_tag_512px.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

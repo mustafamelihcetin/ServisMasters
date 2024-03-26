@@ -517,6 +517,7 @@
             this.barButtonItem17.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem17.ImageOptions.Image")));
             this.barButtonItem17.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem17.ImageOptions.LargeImage")));
             this.barButtonItem17.Name = "barButtonItem17";
+            this.barButtonItem17.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem17_ItemClick);
             // 
             // barButtonItem18
             // 
@@ -866,7 +867,7 @@
             this.ribbonPageGroup15.ItemLinks.Add(this.BtnKategoriListesiFormu);
             this.ribbonPageGroup15.ItemLinks.Add(this.barButtonItem13);
             this.ribbonPageGroup15.Name = "ribbonPageGroup15";
-            this.ribbonPageGroup15.Text = "ribbonPageGroup15";
+            this.ribbonPageGroup15.Text = "Kategoriler";
             // 
             // ribbonPageGroup23
             // 
@@ -874,14 +875,14 @@
             this.ribbonPageGroup23.ItemLinks.Add(this.barButtonItem17);
             this.ribbonPageGroup23.ItemLinks.Add(this.barButtonItem21);
             this.ribbonPageGroup23.Name = "ribbonPageGroup23";
-            this.ribbonPageGroup23.Text = "ribbonPageGroup23";
+            this.ribbonPageGroup23.Text = "Ürünler";
             // 
             // ribbonPageGroup24
             // 
             this.ribbonPageGroup24.ItemLinks.Add(this.barButtonItem22);
             this.ribbonPageGroup24.ItemLinks.Add(this.barButtonItem23);
             this.ribbonPageGroup24.Name = "ribbonPageGroup24";
-            this.ribbonPageGroup24.Text = "ribbonPageGroup24";
+            this.ribbonPageGroup24.Text = "Ürün İstatistikleri";
             // 
             // ribbonPageGroup16
             // 
@@ -889,14 +890,14 @@
             this.ribbonPageGroup16.ItemLinks.Add(this.barButtonItem25);
             this.ribbonPageGroup16.ItemLinks.Add(this.barButtonItem26);
             this.ribbonPageGroup16.Name = "ribbonPageGroup16";
-            this.ribbonPageGroup16.Text = "ribbonPageGroup16";
+            this.ribbonPageGroup16.Text = "Arızalı Ürünler";
             // 
             // ribbonPageGroup26
             // 
             this.ribbonPageGroup26.ItemLinks.Add(this.barButtonItem27);
             this.ribbonPageGroup26.ItemLinks.Add(this.barButtonItem28);
             this.ribbonPageGroup26.Name = "ribbonPageGroup26";
-            this.ribbonPageGroup26.Text = "ribbonPageGroup26";
+            this.ribbonPageGroup26.Text = "Barkod";
             // 
             // ribbonPage13
             // 
@@ -912,7 +913,7 @@
             this.ribbonPageGroup17.ItemLinks.Add(this.barButtonItem30);
             this.ribbonPageGroup17.ItemLinks.Add(this.barButtonItem31);
             this.ribbonPageGroup17.Name = "ribbonPageGroup17";
-            this.ribbonPageGroup17.Text = "ribbonPageGroup17";
+            this.ribbonPageGroup17.Text = "Cariler";
             // 
             // ribbonPage14
             // 
@@ -1030,6 +1031,8 @@
             // 
             // xtraTabbedMdiManager1
             // 
+            this.xtraTabbedMdiManager1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.xtraTabbedMdiManager1.ClosePageButtonShowMode = DevExpress.XtraTab.ClosePageButtonShowMode.InActiveTabPageHeader;
             this.xtraTabbedMdiManager1.MdiParent = this;
             // 
             // ribbonPageCategory1
@@ -1042,14 +1045,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1384, 681);
             this.Controls.Add(this.ribbonControl3);
             this.IsMdiContainer = true;
-            this.MinimumSize = new System.Drawing.Size(1400, 720);
+            this.MinimumSize = new System.Drawing.Size(1032, 695);
             this.Name = "Form1";
             this.Text = "ServisMasters";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl2)).EndInit();

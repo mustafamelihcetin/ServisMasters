@@ -16,5 +16,20 @@ namespace ServisMasters.Formlar
         {
             InitializeComponent();
         }
+        DbTeknikServisEntities db = new DbTeknikServisEntities();
+        public void gridViewSecilenSutunlariYaz()
+        {
+            var deger = from u in db.TBLKATEGORI
+                        select new
+                        {
+                            u.ID,
+                            u.AD
+                        };
+            gridControl1.DataSource = deger.ToList();
+        }
+        private void FrmKategoriListesi_Load(object sender, EventArgs e)
+        {
+            gridViewSecilenSutunlariYaz();
+        }
     }
 }

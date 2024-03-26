@@ -21,9 +21,9 @@ namespace ServisMasters
         {
 
         }
-
         private void BtnUrunListesiFormu_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            
             Formlar.FrmUrunListesi fr = new Formlar.FrmUrunListesi();
             fr.MdiParent = this;
             fr.Show();
@@ -33,6 +33,12 @@ namespace ServisMasters
         {
             Formlar.FrmKategoriListesi fr = new Formlar.FrmKategoriListesi();
             fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void barButtonItem17_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmYeniUrun fr = new Formlar.FrmYeniUrun();
             fr.Show();
         }
     }
