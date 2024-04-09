@@ -177,7 +177,7 @@
             this.ribbonPage7,
             this.ribbonPage8,
             this.ribbonPage9});
-            this.ribbonControl1.Size = new System.Drawing.Size(1370, 150);
+            this.ribbonControl1.Size = new System.Drawing.Size(1370, 0);
             // 
             // barButtonItem1
             // 
@@ -406,7 +406,7 @@
             this.ribbonControl2.Name = "ribbonControl2";
             this.ribbonControl2.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage10});
-            this.ribbonControl2.Size = new System.Drawing.Size(1370, 150);
+            this.ribbonControl2.Size = new System.Drawing.Size(1370, 0);
             // 
             // ribbonPage10
             // 
