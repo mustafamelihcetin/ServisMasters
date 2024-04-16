@@ -108,5 +108,7 @@ namespace ServisMasters.Formlar
             MessageBox.Show("Ürün başarıyla güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             GridGuncelle();
         }
+
+
     }
 }

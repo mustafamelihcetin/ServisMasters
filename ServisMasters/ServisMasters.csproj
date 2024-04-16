@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v21.2, Version=21.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.v21.2, Version=21.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v21.2.Core, Version=21.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.Desktop.v21.2, Version=21.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -64,6 +65,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmArizaliUrunListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmArizaliUrunListesi.Designer.cs">
+      <DependentUpon>FrmArizaliUrunListesi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formlar\UrunlerSekmesi\FrmKategoriListesi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +157,9 @@
     <Compile Include="TBLURUNTAKIP.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Formlar\UrunlerSekmesi\FrmArizaliUrunListesi.resx">
+      <DependentUpon>FrmArizaliUrunListesi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formlar\UrunlerSekmesi\FrmKategoriListesi.resx">
       <DependentUpon>FrmKategoriListesi.cs</DependentUpon>
     </EmbeddedResource>

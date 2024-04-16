@@ -80,7 +80,7 @@ namespace ServisMasters.Formlar
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
             this.tablePanel1.SetRow(this.gridControl1, 0);
-            this.gridControl1.Size = new System.Drawing.Size(1035, 474);
+            this.gridControl1.Size = new System.Drawing.Size(928, 476);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -102,9 +102,9 @@ namespace ServisMasters.Formlar
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl1.Appearance.Options.UseFont = true;
             this.tablePanel2.SetColumn(this.labelControl1, 0);
-            this.labelControl1.Location = new System.Drawing.Point(3, 35);
+            this.labelControl1.Location = new System.Drawing.Point(3, 58);
             this.labelControl1.Name = "labelControl1";
-            this.tablePanel2.SetRow(this.labelControl1, 1);
+            this.tablePanel2.SetRow(this.labelControl1, 2);
             this.labelControl1.Size = new System.Drawing.Size(87, 19);
             this.labelControl1.TabIndex = 1;
             this.labelControl1.Text = "ÜRÜN ADI: ";
@@ -113,12 +113,13 @@ namespace ServisMasters.Formlar
             // 
             this.tablePanel2.SetColumn(this.TBUrunİslemleriUrunAdi, 1);
             this.TBUrunİslemleriUrunAdi.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TBUrunİslemleriUrunAdi.Location = new System.Drawing.Point(123, 35);
+            this.TBUrunİslemleriUrunAdi.Location = new System.Drawing.Point(123, 55);
+            this.TBUrunİslemleriUrunAdi.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
             this.TBUrunİslemleriUrunAdi.Name = "TBUrunİslemleriUrunAdi";
             this.TBUrunİslemleriUrunAdi.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TBUrunİslemleriUrunAdi.Properties.Appearance.Options.UseFont = true;
-            this.tablePanel2.SetRow(this.TBUrunİslemleriUrunAdi, 1);
-            this.TBUrunİslemleriUrunAdi.Size = new System.Drawing.Size(214, 26);
+            this.tablePanel2.SetRow(this.TBUrunİslemleriUrunAdi, 2);
+            this.TBUrunİslemleriUrunAdi.Size = new System.Drawing.Size(187, 26);
             this.TBUrunİslemleriUrunAdi.TabIndex = 2;
             // 
             // groupControl1
@@ -129,11 +130,11 @@ namespace ServisMasters.Formlar
             this.tablePanel1.SetColumn(this.groupControl1, 1);
             this.groupControl1.Controls.Add(this.tablePanel2);
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl1.GroupStyle = DevExpress.Utils.GroupStyle.Light;
-            this.groupControl1.Location = new System.Drawing.Point(1044, 3);
+            this.groupControl1.GroupStyle = DevExpress.Utils.GroupStyle.Card;
+            this.groupControl1.Location = new System.Drawing.Point(937, 3);
             this.groupControl1.Name = "groupControl1";
             this.tablePanel1.SetRow(this.groupControl1, 0);
-            this.groupControl1.Size = new System.Drawing.Size(344, 474);
+            this.groupControl1.Size = new System.Drawing.Size(324, 476);
             this.groupControl1.TabIndex = 3;
             this.groupControl1.Text = "ÜRÜN İŞLEMLERİ";
             // 
@@ -143,7 +144,7 @@ namespace ServisMasters.Formlar
             this.tablePanel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.tablePanel2.Columns.AddRange(new DevExpress.Utils.Layout.TablePanelColumn[] {
             new DevExpress.Utils.Layout.TablePanelColumn(DevExpress.Utils.Layout.TablePanelEntityStyle.Absolute, 120F),
-            new DevExpress.Utils.Layout.TablePanelColumn(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 100F)});
+            new DevExpress.Utils.Layout.TablePanelColumn(DevExpress.Utils.Layout.TablePanelEntityStyle.Absolute, 100F)});
             this.tablePanel2.Controls.Add(this.labelControl1);
             this.tablePanel2.Controls.Add(this.labelControl7);
             this.tablePanel2.Controls.Add(this.TBUrunIslemleriUrunId);
@@ -163,22 +164,23 @@ namespace ServisMasters.Formlar
             this.tablePanel2.Controls.Add(this.TBUrunİslemleriMarka);
             this.tablePanel2.Controls.Add(this.TBUrunİslemleriAlisFiyati);
             this.tablePanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tablePanel2.Location = new System.Drawing.Point(2, 33);
+            this.tablePanel2.Location = new System.Drawing.Point(2, 39);
             this.tablePanel2.Name = "tablePanel2";
             this.tablePanel2.Rows.AddRange(new DevExpress.Utils.Layout.TablePanelRow[] {
             new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F),
-            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F),
-            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F),
-            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F),
-            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F),
-            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F),
-            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F),
-            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F),
-            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F),
-            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F),
-            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F),
-            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F)});
-            this.tablePanel2.Size = new System.Drawing.Size(340, 439);
+            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 32F),
+            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 32F),
+            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 32F),
+            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 32F),
+            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 32F),
+            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 32F),
+            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 32F),
+            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 32F),
+            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 32F),
+            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 32F),
+            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 32F),
+            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.Relative, 32F)});
+            this.tablePanel2.Size = new System.Drawing.Size(320, 435);
             this.tablePanel2.TabIndex = 19;
             // 
             // labelControl7
@@ -186,9 +188,9 @@ namespace ServisMasters.Formlar
             this.labelControl7.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl7.Appearance.Options.UseFont = true;
             this.tablePanel2.SetColumn(this.labelControl7, 0);
-            this.labelControl7.Location = new System.Drawing.Point(3, 3);
+            this.labelControl7.Location = new System.Drawing.Point(3, 26);
             this.labelControl7.Name = "labelControl7";
-            this.tablePanel2.SetRow(this.labelControl7, 0);
+            this.tablePanel2.SetRow(this.labelControl7, 1);
             this.labelControl7.Size = new System.Drawing.Size(76, 19);
             this.labelControl7.TabIndex = 17;
             this.labelControl7.Text = "ÜRÜN ID: ";
@@ -196,14 +198,14 @@ namespace ServisMasters.Formlar
             // TBUrunIslemleriUrunId
             // 
             this.tablePanel2.SetColumn(this.TBUrunIslemleriUrunId, 1);
-            this.TBUrunIslemleriUrunId.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TBUrunIslemleriUrunId.Enabled = false;
-            this.TBUrunIslemleriUrunId.Location = new System.Drawing.Point(123, 3);
+            this.TBUrunIslemleriUrunId.Location = new System.Drawing.Point(123, 23);
+            this.TBUrunIslemleriUrunId.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
             this.TBUrunIslemleriUrunId.Name = "TBUrunIslemleriUrunId";
             this.TBUrunIslemleriUrunId.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TBUrunIslemleriUrunId.Properties.Appearance.Options.UseFont = true;
-            this.tablePanel2.SetRow(this.TBUrunIslemleriUrunId, 0);
-            this.TBUrunIslemleriUrunId.Size = new System.Drawing.Size(214, 26);
+            this.tablePanel2.SetRow(this.TBUrunIslemleriUrunId, 1);
+            this.TBUrunIslemleriUrunId.Size = new System.Drawing.Size(187, 26);
             this.TBUrunIslemleriUrunId.TabIndex = 18;
             // 
             // BtnUrunİslemleriSil
@@ -215,11 +217,11 @@ namespace ServisMasters.Formlar
             this.BtnUrunİslemleriSil.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnUrunİslemleriSil.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BtnUrunİslemleriSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnUrunİslemleriSil.ImageOptions.Image")));
-            this.BtnUrunİslemleriSil.Location = new System.Drawing.Point(125, 275);
-            this.BtnUrunİslemleriSil.Margin = new System.Windows.Forms.Padding(5);
+            this.BtnUrunİslemleriSil.Location = new System.Drawing.Point(123, 291);
+            this.BtnUrunİslemleriSil.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
             this.BtnUrunİslemleriSil.Name = "BtnUrunİslemleriSil";
-            this.tablePanel2.SetRow(this.BtnUrunİslemleriSil, 8);
-            this.BtnUrunİslemleriSil.Size = new System.Drawing.Size(210, 36);
+            this.tablePanel2.SetRow(this.BtnUrunİslemleriSil, 9);
+            this.BtnUrunİslemleriSil.Size = new System.Drawing.Size(187, 38);
             this.BtnUrunİslemleriSil.TabIndex = 14;
             this.BtnUrunİslemleriSil.Text = "SİL";
             this.BtnUrunİslemleriSil.Click += new System.EventHandler(this.BtnUrunİslemleriSil_Click);
@@ -233,11 +235,11 @@ namespace ServisMasters.Formlar
             this.BtnUrunİslemleriGuncelle.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnUrunİslemleriGuncelle.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BtnUrunİslemleriGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnUrunİslemleriGuncelle.ImageOptions.Image")));
-            this.BtnUrunİslemleriGuncelle.Location = new System.Drawing.Point(125, 321);
-            this.BtnUrunİslemleriGuncelle.Margin = new System.Windows.Forms.Padding(5);
+            this.BtnUrunİslemleriGuncelle.Location = new System.Drawing.Point(123, 335);
+            this.BtnUrunİslemleriGuncelle.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
             this.BtnUrunİslemleriGuncelle.Name = "BtnUrunİslemleriGuncelle";
-            this.tablePanel2.SetRow(this.BtnUrunİslemleriGuncelle, 9);
-            this.BtnUrunİslemleriGuncelle.Size = new System.Drawing.Size(210, 36);
+            this.tablePanel2.SetRow(this.BtnUrunİslemleriGuncelle, 10);
+            this.BtnUrunİslemleriGuncelle.Size = new System.Drawing.Size(187, 38);
             this.BtnUrunİslemleriGuncelle.TabIndex = 15;
             this.BtnUrunİslemleriGuncelle.Text = "GÜNCELLE";
             this.BtnUrunİslemleriGuncelle.Click += new System.EventHandler(this.BtnUrunİslemleriGuncelle_Click);
@@ -251,11 +253,11 @@ namespace ServisMasters.Formlar
             this.BtnUrunİslemleriListele.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnUrunİslemleriListele.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BtnUrunİslemleriListele.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnUrunİslemleriListele.ImageOptions.Image")));
-            this.BtnUrunİslemleriListele.Location = new System.Drawing.Point(125, 367);
-            this.BtnUrunİslemleriListele.Margin = new System.Windows.Forms.Padding(5);
+            this.BtnUrunİslemleriListele.Location = new System.Drawing.Point(123, 379);
+            this.BtnUrunİslemleriListele.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
             this.BtnUrunİslemleriListele.Name = "BtnUrunİslemleriListele";
-            this.tablePanel2.SetRow(this.BtnUrunİslemleriListele, 10);
-            this.BtnUrunİslemleriListele.Size = new System.Drawing.Size(210, 36);
+            this.tablePanel2.SetRow(this.BtnUrunİslemleriListele, 11);
+            this.BtnUrunİslemleriListele.Size = new System.Drawing.Size(187, 38);
             this.BtnUrunİslemleriListele.TabIndex = 16;
             this.BtnUrunİslemleriListele.Text = "LİSTELE";
             this.BtnUrunİslemleriListele.Click += new System.EventHandler(this.BtnUrunİslemleriListele_Click);
@@ -265,9 +267,9 @@ namespace ServisMasters.Formlar
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl2.Appearance.Options.UseFont = true;
             this.tablePanel2.SetColumn(this.labelControl2, 0);
-            this.labelControl2.Location = new System.Drawing.Point(3, 67);
+            this.labelControl2.Location = new System.Drawing.Point(3, 90);
             this.labelControl2.Name = "labelControl2";
-            this.tablePanel2.SetRow(this.labelControl2, 2);
+            this.tablePanel2.SetRow(this.labelControl2, 3);
             this.labelControl2.Size = new System.Drawing.Size(64, 19);
             this.labelControl2.TabIndex = 3;
             this.labelControl2.Text = "MARKA: ";
@@ -277,9 +279,9 @@ namespace ServisMasters.Formlar
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl3.Appearance.Options.UseFont = true;
             this.tablePanel2.SetColumn(this.labelControl3, 0);
-            this.labelControl3.Location = new System.Drawing.Point(3, 99);
+            this.labelControl3.Location = new System.Drawing.Point(3, 122);
             this.labelControl3.Name = "labelControl3";
-            this.tablePanel2.SetRow(this.labelControl3, 3);
+            this.tablePanel2.SetRow(this.labelControl3, 4);
             this.labelControl3.Size = new System.Drawing.Size(96, 19);
             this.labelControl3.TabIndex = 5;
             this.labelControl3.Text = "ALIŞ FİYATI:";
@@ -289,9 +291,9 @@ namespace ServisMasters.Formlar
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl4.Appearance.Options.UseFont = true;
             this.tablePanel2.SetColumn(this.labelControl4, 0);
-            this.labelControl4.Location = new System.Drawing.Point(3, 131);
+            this.labelControl4.Location = new System.Drawing.Point(3, 154);
             this.labelControl4.Name = "labelControl4";
-            this.tablePanel2.SetRow(this.labelControl4, 4);
+            this.tablePanel2.SetRow(this.labelControl4, 5);
             this.labelControl4.Size = new System.Drawing.Size(112, 19);
             this.labelControl4.TabIndex = 7;
             this.labelControl4.Text = "SATIŞ FİYATI: ";
@@ -305,11 +307,11 @@ namespace ServisMasters.Formlar
             this.BtnUrunİslemleriKaydet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnUrunİslemleriKaydet.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BtnUrunİslemleriKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnUrunİslemleriKaydet.ImageOptions.Image")));
-            this.BtnUrunİslemleriKaydet.Location = new System.Drawing.Point(125, 229);
-            this.BtnUrunİslemleriKaydet.Margin = new System.Windows.Forms.Padding(5);
+            this.BtnUrunİslemleriKaydet.Location = new System.Drawing.Point(123, 247);
+            this.BtnUrunİslemleriKaydet.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
             this.BtnUrunİslemleriKaydet.Name = "BtnUrunİslemleriKaydet";
-            this.tablePanel2.SetRow(this.BtnUrunİslemleriKaydet, 7);
-            this.BtnUrunİslemleriKaydet.Size = new System.Drawing.Size(210, 36);
+            this.tablePanel2.SetRow(this.BtnUrunİslemleriKaydet, 8);
+            this.BtnUrunİslemleriKaydet.Size = new System.Drawing.Size(187, 38);
             this.BtnUrunİslemleriKaydet.TabIndex = 13;
             this.BtnUrunİslemleriKaydet.Text = "KAYDET";
             this.BtnUrunİslemleriKaydet.Click += new System.EventHandler(this.BtnUrunİslemleriKaydet_Click);
@@ -319,9 +321,9 @@ namespace ServisMasters.Formlar
             this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl5.Appearance.Options.UseFont = true;
             this.tablePanel2.SetColumn(this.labelControl5, 0);
-            this.labelControl5.Location = new System.Drawing.Point(3, 163);
+            this.labelControl5.Location = new System.Drawing.Point(3, 186);
             this.labelControl5.Name = "labelControl5";
-            this.tablePanel2.SetRow(this.labelControl5, 5);
+            this.tablePanel2.SetRow(this.labelControl5, 6);
             this.labelControl5.Size = new System.Drawing.Size(51, 19);
             this.labelControl5.TabIndex = 9;
             this.labelControl5.Text = "STOK: ";
@@ -330,7 +332,8 @@ namespace ServisMasters.Formlar
             // 
             this.tablePanel2.SetColumn(this.lookUpEditTBUrunİslemleriKategori, 1);
             this.lookUpEditTBUrunİslemleriKategori.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lookUpEditTBUrunİslemleriKategori.Location = new System.Drawing.Point(123, 195);
+            this.lookUpEditTBUrunİslemleriKategori.Location = new System.Drawing.Point(123, 215);
+            this.lookUpEditTBUrunİslemleriKategori.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
             this.lookUpEditTBUrunİslemleriKategori.Name = "lookUpEditTBUrunİslemleriKategori";
             this.lookUpEditTBUrunİslemleriKategori.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.lookUpEditTBUrunİslemleriKategori.Properties.Appearance.Options.UseFont = true;
@@ -338,8 +341,8 @@ namespace ServisMasters.Formlar
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.lookUpEditTBUrunİslemleriKategori.Properties.DisplayMember = "AD";
             this.lookUpEditTBUrunİslemleriKategori.Properties.ValueMember = "ID";
-            this.tablePanel2.SetRow(this.lookUpEditTBUrunİslemleriKategori, 6);
-            this.lookUpEditTBUrunİslemleriKategori.Size = new System.Drawing.Size(214, 26);
+            this.tablePanel2.SetRow(this.lookUpEditTBUrunİslemleriKategori, 7);
+            this.lookUpEditTBUrunİslemleriKategori.Size = new System.Drawing.Size(187, 26);
             this.lookUpEditTBUrunİslemleriKategori.TabIndex = 12;
             // 
             // labelControl6
@@ -347,9 +350,9 @@ namespace ServisMasters.Formlar
             this.labelControl6.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl6.Appearance.Options.UseFont = true;
             this.tablePanel2.SetColumn(this.labelControl6, 0);
-            this.labelControl6.Location = new System.Drawing.Point(3, 195);
+            this.labelControl6.Location = new System.Drawing.Point(3, 218);
             this.labelControl6.Name = "labelControl6";
-            this.tablePanel2.SetRow(this.labelControl6, 6);
+            this.tablePanel2.SetRow(this.labelControl6, 7);
             this.labelControl6.Size = new System.Drawing.Size(89, 19);
             this.labelControl6.TabIndex = 11;
             this.labelControl6.Text = "KATEGORİ: ";
@@ -358,48 +361,52 @@ namespace ServisMasters.Formlar
             // 
             this.tablePanel2.SetColumn(this.TBUrunİslemleriSatisFiyati, 1);
             this.TBUrunİslemleriSatisFiyati.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TBUrunİslemleriSatisFiyati.Location = new System.Drawing.Point(123, 131);
+            this.TBUrunİslemleriSatisFiyati.Location = new System.Drawing.Point(123, 151);
+            this.TBUrunİslemleriSatisFiyati.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
             this.TBUrunİslemleriSatisFiyati.Name = "TBUrunİslemleriSatisFiyati";
             this.TBUrunİslemleriSatisFiyati.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TBUrunİslemleriSatisFiyati.Properties.Appearance.Options.UseFont = true;
-            this.tablePanel2.SetRow(this.TBUrunİslemleriSatisFiyati, 4);
-            this.TBUrunİslemleriSatisFiyati.Size = new System.Drawing.Size(214, 26);
+            this.tablePanel2.SetRow(this.TBUrunİslemleriSatisFiyati, 5);
+            this.TBUrunİslemleriSatisFiyati.Size = new System.Drawing.Size(187, 26);
             this.TBUrunİslemleriSatisFiyati.TabIndex = 8;
             // 
             // TBUrunİslemleriStok
             // 
             this.tablePanel2.SetColumn(this.TBUrunİslemleriStok, 1);
             this.TBUrunİslemleriStok.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TBUrunİslemleriStok.Location = new System.Drawing.Point(123, 163);
+            this.TBUrunİslemleriStok.Location = new System.Drawing.Point(123, 183);
+            this.TBUrunİslemleriStok.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
             this.TBUrunİslemleriStok.Name = "TBUrunİslemleriStok";
             this.TBUrunİslemleriStok.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TBUrunİslemleriStok.Properties.Appearance.Options.UseFont = true;
-            this.tablePanel2.SetRow(this.TBUrunİslemleriStok, 5);
-            this.TBUrunİslemleriStok.Size = new System.Drawing.Size(214, 26);
+            this.tablePanel2.SetRow(this.TBUrunİslemleriStok, 6);
+            this.TBUrunİslemleriStok.Size = new System.Drawing.Size(187, 26);
             this.TBUrunİslemleriStok.TabIndex = 10;
             // 
             // TBUrunİslemleriMarka
             // 
             this.tablePanel2.SetColumn(this.TBUrunİslemleriMarka, 1);
             this.TBUrunİslemleriMarka.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TBUrunİslemleriMarka.Location = new System.Drawing.Point(123, 67);
+            this.TBUrunİslemleriMarka.Location = new System.Drawing.Point(123, 87);
+            this.TBUrunİslemleriMarka.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
             this.TBUrunİslemleriMarka.Name = "TBUrunİslemleriMarka";
             this.TBUrunİslemleriMarka.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TBUrunİslemleriMarka.Properties.Appearance.Options.UseFont = true;
-            this.tablePanel2.SetRow(this.TBUrunİslemleriMarka, 2);
-            this.TBUrunİslemleriMarka.Size = new System.Drawing.Size(214, 26);
+            this.tablePanel2.SetRow(this.TBUrunİslemleriMarka, 3);
+            this.TBUrunİslemleriMarka.Size = new System.Drawing.Size(187, 26);
             this.TBUrunİslemleriMarka.TabIndex = 4;
             // 
             // TBUrunİslemleriAlisFiyati
             // 
             this.tablePanel2.SetColumn(this.TBUrunİslemleriAlisFiyati, 1);
             this.TBUrunİslemleriAlisFiyati.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TBUrunİslemleriAlisFiyati.Location = new System.Drawing.Point(123, 99);
+            this.TBUrunİslemleriAlisFiyati.Location = new System.Drawing.Point(123, 119);
+            this.TBUrunİslemleriAlisFiyati.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
             this.TBUrunİslemleriAlisFiyati.Name = "TBUrunİslemleriAlisFiyati";
             this.TBUrunİslemleriAlisFiyati.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TBUrunİslemleriAlisFiyati.Properties.Appearance.Options.UseFont = true;
-            this.tablePanel2.SetRow(this.TBUrunİslemleriAlisFiyati, 3);
-            this.TBUrunİslemleriAlisFiyati.Size = new System.Drawing.Size(214, 26);
+            this.tablePanel2.SetRow(this.TBUrunİslemleriAlisFiyati, 4);
+            this.TBUrunİslemleriAlisFiyati.Size = new System.Drawing.Size(187, 26);
             this.TBUrunİslemleriAlisFiyati.TabIndex = 6;
             // 
             // tablePanel1
@@ -409,15 +416,15 @@ namespace ServisMasters.Formlar
             this.tablePanel1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
             this.tablePanel1.Columns.AddRange(new DevExpress.Utils.Layout.TablePanelColumn[] {
             new DevExpress.Utils.Layout.TablePanelColumn(DevExpress.Utils.Layout.TablePanelEntityStyle.Relative, 45.92F),
-            new DevExpress.Utils.Layout.TablePanelColumn(DevExpress.Utils.Layout.TablePanelEntityStyle.Absolute, 350F)});
+            new DevExpress.Utils.Layout.TablePanelColumn(DevExpress.Utils.Layout.TablePanelEntityStyle.Absolute, 330F)});
             this.tablePanel1.Controls.Add(this.gridControl1);
             this.tablePanel1.Controls.Add(this.groupControl1);
             this.tablePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tablePanel1.Location = new System.Drawing.Point(0, 0);
             this.tablePanel1.Name = "tablePanel1";
             this.tablePanel1.Rows.AddRange(new DevExpress.Utils.Layout.TablePanelRow[] {
-            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.Absolute, 26F)});
-            this.tablePanel1.Size = new System.Drawing.Size(1391, 480);
+            new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F)});
+            this.tablePanel1.Size = new System.Drawing.Size(1264, 482);
             this.tablePanel1.TabIndex = 4;
             // 
             // FrmUrunListesi
@@ -425,8 +432,9 @@ namespace ServisMasters.Formlar
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1391, 480);
+            this.ClientSize = new System.Drawing.Size(1264, 482);
             this.Controls.Add(this.tablePanel1);
+            this.MinimumSize = new System.Drawing.Size(1280, 515);
             this.Name = "FrmUrunListesi";
             this.Text = "Ürün Listesi";
             this.Load += new System.EventHandler(this.FrmUrunListesi_Load);
