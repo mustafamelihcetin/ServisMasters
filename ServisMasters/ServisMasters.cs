@@ -45,6 +45,7 @@ namespace ServisMasters
         private void barButtonItem24_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             Formlar.UrunlerSekmesi.FrmArizaliUrunListesi fr = new Formlar.UrunlerSekmesi.FrmArizaliUrunListesi();
+            fr.MdiParent = this;
             fr.Show();
         }
     }

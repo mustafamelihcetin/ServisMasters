@@ -80,7 +80,7 @@ namespace ServisMasters.Formlar
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
             this.tablePanel1.SetRow(this.gridControl1, 0);
-            this.gridControl1.Size = new System.Drawing.Size(928, 476);
+            this.gridControl1.Size = new System.Drawing.Size(912, 476);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -131,7 +131,7 @@ namespace ServisMasters.Formlar
             this.groupControl1.Controls.Add(this.tablePanel2);
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl1.GroupStyle = DevExpress.Utils.GroupStyle.Card;
-            this.groupControl1.Location = new System.Drawing.Point(937, 3);
+            this.groupControl1.Location = new System.Drawing.Point(921, 3);
             this.groupControl1.Name = "groupControl1";
             this.tablePanel1.SetRow(this.groupControl1, 0);
             this.groupControl1.Size = new System.Drawing.Size(324, 476);
@@ -424,7 +424,7 @@ namespace ServisMasters.Formlar
             this.tablePanel1.Name = "tablePanel1";
             this.tablePanel1.Rows.AddRange(new DevExpress.Utils.Layout.TablePanelRow[] {
             new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F)});
-            this.tablePanel1.Size = new System.Drawing.Size(1264, 482);
+            this.tablePanel1.Size = new System.Drawing.Size(1248, 482);
             this.tablePanel1.TabIndex = 4;
             // 
             // FrmUrunListesi
@@ -432,9 +432,9 @@ namespace ServisMasters.Formlar
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1264, 482);
+            this.ClientSize = new System.Drawing.Size(1248, 482);
             this.Controls.Add(this.tablePanel1);
-            this.MinimumSize = new System.Drawing.Size(1280, 515);
+            this.MinimumSize = new System.Drawing.Size(1264, 521);
             this.Name = "FrmUrunListesi";
             this.Text = "Ürün Listesi";
             this.Load += new System.EventHandler(this.FrmUrunListesi_Load);
