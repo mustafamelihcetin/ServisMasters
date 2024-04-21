@@ -38,7 +38,7 @@ ServisMasters, kullanıcı tarafından geliştirilen ve şu anda geliştirme aş
 3. ServisMasters.sln dosyasını açın.
 4. Projeyi derleyin ve çalıştırın.
 
-
+![Screenshot](ServisMasters/ScreenShot/ServisMasters_UrunListesiScreenShot.png)
 
 # ServisMasters / ENG
 
