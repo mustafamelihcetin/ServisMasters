@@ -88,7 +88,7 @@ namespace ServisMasters.Formlar
             this.tablePanel1.Name = "tablePanel1";
             this.tablePanel1.Rows.AddRange(new DevExpress.Utils.Layout.TablePanelRow[] {
             new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F)});
-            this.tablePanel1.Size = new System.Drawing.Size(1264, 482);
+            this.tablePanel1.Size = new System.Drawing.Size(1248, 482);
             this.tablePanel1.TabIndex = 5;
             // 
             // groupControl1
@@ -100,7 +100,7 @@ namespace ServisMasters.Formlar
             this.groupControl1.Controls.Add(this.tablePanel2);
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl1.GroupStyle = DevExpress.Utils.GroupStyle.Card;
-            this.groupControl1.Location = new System.Drawing.Point(937, 3);
+            this.groupControl1.Location = new System.Drawing.Point(921, 3);
             this.groupControl1.Name = "groupControl1";
             this.tablePanel1.SetRow(this.groupControl1, 0);
             this.groupControl1.Size = new System.Drawing.Size(324, 476);
@@ -133,7 +133,7 @@ namespace ServisMasters.Formlar
             this.tablePanel2.Controls.Add(this.TBUrunİslemleriMarka);
             this.tablePanel2.Controls.Add(this.TBUrunİslemleriAlisFiyati);
             this.tablePanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tablePanel2.Location = new System.Drawing.Point(2, 39);
+            this.tablePanel2.Location = new System.Drawing.Point(2, 33);
             this.tablePanel2.Name = "tablePanel2";
             this.tablePanel2.Rows.AddRange(new DevExpress.Utils.Layout.TablePanelRow[] {
             new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 26F),
@@ -149,7 +149,7 @@ namespace ServisMasters.Formlar
             new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 32F),
             new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.AutoSize, 32F),
             new DevExpress.Utils.Layout.TablePanelRow(DevExpress.Utils.Layout.TablePanelEntityStyle.Relative, 32F)});
-            this.tablePanel2.Size = new System.Drawing.Size(320, 435);
+            this.tablePanel2.Size = new System.Drawing.Size(320, 441);
             this.tablePanel2.TabIndex = 19;
             // 
             // labelControl1
@@ -198,11 +198,11 @@ namespace ServisMasters.Formlar
             this.BtnUrunİslemleriSil.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnUrunİslemleriSil.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BtnUrunİslemleriSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnUrunİslemleriSil.ImageOptions.Image")));
-            this.BtnUrunİslemleriSil.Location = new System.Drawing.Point(123, 291);
+            this.BtnUrunİslemleriSil.Location = new System.Drawing.Point(123, 289);
             this.BtnUrunİslemleriSil.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
             this.BtnUrunİslemleriSil.Name = "BtnUrunİslemleriSil";
             this.tablePanel2.SetRow(this.BtnUrunİslemleriSil, 9);
-            this.BtnUrunİslemleriSil.Size = new System.Drawing.Size(187, 38);
+            this.BtnUrunİslemleriSil.Size = new System.Drawing.Size(187, 36);
             this.BtnUrunİslemleriSil.TabIndex = 14;
             this.BtnUrunİslemleriSil.Text = "SİL";
             // 
@@ -215,11 +215,11 @@ namespace ServisMasters.Formlar
             this.BtnUrunİslemleriGuncelle.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnUrunİslemleriGuncelle.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BtnUrunİslemleriGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnUrunİslemleriGuncelle.ImageOptions.Image")));
-            this.BtnUrunİslemleriGuncelle.Location = new System.Drawing.Point(123, 335);
+            this.BtnUrunİslemleriGuncelle.Location = new System.Drawing.Point(123, 331);
             this.BtnUrunİslemleriGuncelle.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
             this.BtnUrunİslemleriGuncelle.Name = "BtnUrunİslemleriGuncelle";
             this.tablePanel2.SetRow(this.BtnUrunİslemleriGuncelle, 10);
-            this.BtnUrunİslemleriGuncelle.Size = new System.Drawing.Size(187, 38);
+            this.BtnUrunİslemleriGuncelle.Size = new System.Drawing.Size(187, 36);
             this.BtnUrunİslemleriGuncelle.TabIndex = 15;
             this.BtnUrunİslemleriGuncelle.Text = "GÜNCELLE";
             // 
@@ -232,11 +232,11 @@ namespace ServisMasters.Formlar
             this.BtnUrunİslemleriListele.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnUrunİslemleriListele.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BtnUrunİslemleriListele.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnUrunİslemleriListele.ImageOptions.Image")));
-            this.BtnUrunİslemleriListele.Location = new System.Drawing.Point(123, 379);
+            this.BtnUrunİslemleriListele.Location = new System.Drawing.Point(123, 373);
             this.BtnUrunİslemleriListele.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
             this.BtnUrunİslemleriListele.Name = "BtnUrunİslemleriListele";
             this.tablePanel2.SetRow(this.BtnUrunİslemleriListele, 11);
-            this.BtnUrunİslemleriListele.Size = new System.Drawing.Size(187, 38);
+            this.BtnUrunİslemleriListele.Size = new System.Drawing.Size(187, 36);
             this.BtnUrunİslemleriListele.TabIndex = 16;
             this.BtnUrunİslemleriListele.Text = "LİSTELE";
             // 
@@ -289,7 +289,7 @@ namespace ServisMasters.Formlar
             this.BtnUrunİslemleriKaydet.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
             this.BtnUrunİslemleriKaydet.Name = "BtnUrunİslemleriKaydet";
             this.tablePanel2.SetRow(this.BtnUrunİslemleriKaydet, 8);
-            this.BtnUrunİslemleriKaydet.Size = new System.Drawing.Size(187, 38);
+            this.BtnUrunİslemleriKaydet.Size = new System.Drawing.Size(187, 36);
             this.BtnUrunİslemleriKaydet.TabIndex = 13;
             this.BtnUrunİslemleriKaydet.Text = "KAYDET";
             // 
@@ -408,7 +408,7 @@ namespace ServisMasters.Formlar
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
             this.tablePanel1.SetRow(this.gridControl1, 0);
-            this.gridControl1.Size = new System.Drawing.Size(928, 476);
+            this.gridControl1.Size = new System.Drawing.Size(912, 476);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -428,7 +428,7 @@ namespace ServisMasters.Formlar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1264, 482);
+            this.ClientSize = new System.Drawing.Size(1248, 482);
             this.Controls.Add(this.tablePanel1);
             this.MinimumSize = new System.Drawing.Size(1264, 521);
             this.Name = "FrmKategoriListesi";

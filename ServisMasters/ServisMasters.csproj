@@ -65,6 +65,144 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formlar\AraçlarSekmesi\FrmDovizKurlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\AraçlarSekmesi\FrmDovizKurlari.Designer.cs">
+      <DependentUpon>FrmDovizKurlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\AraçlarSekmesi\FrmExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\AraçlarSekmesi\FrmExcel.Designer.cs">
+      <DependentUpon>FrmExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\AraçlarSekmesi\FrmHaberler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\AraçlarSekmesi\FrmHaberler.Designer.cs">
+      <DependentUpon>FrmHaberler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\AraçlarSekmesi\FrmHesapMakinesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\AraçlarSekmesi\FrmHesapMakinesi.Designer.cs">
+      <DependentUpon>FrmHesapMakinesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\AraçlarSekmesi\FrmWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\AraçlarSekmesi\FrmWord.Designer.cs">
+      <DependentUpon>FrmWord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\AraçlarSekmesi\FrmYardim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\AraçlarSekmesi\FrmYardim.Designer.cs">
+      <DependentUpon>FrmYardim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\AraçlarSekmesi\FrmYeniNot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\AraçlarSekmesi\FrmYeniNot.Designer.cs">
+      <DependentUpon>FrmYeniNot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\CarilerSekmesi\FrmCariIstatistigi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\CarilerSekmesi\FrmCariIstatistigi.Designer.cs">
+      <DependentUpon>FrmCariIstatistigi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\CarilerSekmesi\FrmCariListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\CarilerSekmesi\FrmCariListesi.Designer.cs">
+      <DependentUpon>FrmCariListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\CarilerSekmesi\FrmYeniCari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\CarilerSekmesi\FrmYeniCari.Designer.cs">
+      <DependentUpon>FrmYeniCari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FaturalarSekmesi\FrmCariHareketleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FaturalarSekmesi\FrmCariHareketleri.Designer.cs">
+      <DependentUpon>FrmCariHareketleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FaturalarSekmesi\FrmDetayliFaturaSorgulama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FaturalarSekmesi\FrmDetayliFaturaSorgulama.Designer.cs">
+      <DependentUpon>FrmDetayliFaturaSorgulama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FaturalarSekmesi\FrmFaturaPdf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FaturalarSekmesi\FrmFaturaPdf.Designer.cs">
+      <DependentUpon>FrmFaturaPdf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FaturalarSekmesi\FrmFaturayaKalemGirisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FaturalarSekmesi\FrmFaturayaKalemGirisi.Designer.cs">
+      <DependentUpon>FrmFaturayaKalemGirisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FaturalarSekmesi\FrmPasifFatura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FaturalarSekmesi\FrmPasifFatura.Designer.cs">
+      <DependentUpon>FrmPasifFatura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FaturalarSekmesi\FrmPersonelHareketleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FaturalarSekmesi\FrmPersonelHareketleri.Designer.cs">
+      <DependentUpon>FrmPersonelHareketleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FaturalarSekmesi\FrmYeniFaturaGirisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FaturalarSekmesi\FrmYeniFaturaGirisi.Designer.cs">
+      <DependentUpon>FrmYeniFaturaGirisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\PersonelSekmesi\FrmDepartmanListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\PersonelSekmesi\FrmDepartmanListesi.Designer.cs">
+      <DependentUpon>FrmDepartmanListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\PersonelSekmesi\FrmPersonelListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\PersonelSekmesi\FrmPersonelListesi.Designer.cs">
+      <DependentUpon>FrmPersonelListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\PersonelSekmesi\FrmYeniDepartman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\PersonelSekmesi\FrmYeniDepartman.Designer.cs">
+      <DependentUpon>FrmYeniDepartman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\PersonelSekmesi\FrmYeniPersonel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\PersonelSekmesi\FrmYeniPersonel.Designer.cs">
+      <DependentUpon>FrmYeniPersonel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmBarkodOlustur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmBarkodOlustur.Designer.cs">
+      <DependentUpon>FrmBarkodOlustur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmArizaliUrunAciklama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmArizaliUrunAciklama.Designer.cs">
+      <DependentUpon>FrmArizaliUrunAciklama.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formlar\UrunlerSekmesi\FrmArizaliUrunListesi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,17 +215,83 @@
     <Compile Include="Formlar\UrunlerSekmesi\FrmKategoriListesi.Designer.cs">
       <DependentUpon>FrmKategoriListesi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmMarkaIstatistikleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmMarkaIstatistikleri.Designer.cs">
+      <DependentUpon>FrmMarkaIstatistikleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmQrKodOlustur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmQrKodOlustur.Designer.cs">
+      <DependentUpon>FrmQrKodOlustur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmUrunAra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmUrunAra.Designer.cs">
+      <DependentUpon>FrmUrunAra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmUrunIstatistikleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmUrunIstatistikleri.Designer.cs">
+      <DependentUpon>FrmUrunIstatistikleri.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formlar\UrunlerSekmesi\FrmUrunListesi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formlar\UrunlerSekmesi\FrmUrunListesi.Designer.cs">
       <DependentUpon>FrmUrunListesi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmYeniArizaliUrunKaydi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmYeniArizaliUrunKaydi.Designer.cs">
+      <DependentUpon>FrmYeniArizaliUrunKaydi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmYeniKategori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\UrunlerSekmesi\FrmYeniKategori.Designer.cs">
+      <DependentUpon>FrmYeniKategori.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formlar\UrunlerSekmesi\FrmYeniUrun.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formlar\UrunlerSekmesi\FrmYeniUrun.Designer.cs">
       <DependentUpon>FrmYeniUrun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\İletisimSekmesi\FrmMailKutusu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\İletisimSekmesi\FrmMailKutusu.Designer.cs">
+      <DependentUpon>FrmMailKutusu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\İletisimSekmesi\FrmRehber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\İletisimSekmesi\FrmRehber.Designer.cs">
+      <DependentUpon>FrmRehber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\İletisimSekmesi\FrmSmsGonder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\İletisimSekmesi\FrmSmsGonder.Designer.cs">
+      <DependentUpon>FrmSmsGonder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\İletisimSekmesi\FrmYeniMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\İletisimSekmesi\FrmYeniMail.Designer.cs">
+      <DependentUpon>FrmYeniMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\İstatistiklerSekmesi\FrmKartlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\İstatistiklerSekmesi\FrmKartlar.Designer.cs">
+      <DependentUpon>FrmKartlar.cs</DependentUpon>
     </Compile>
     <Compile Include="ServisMasters.cs">
       <SubType>Form</SubType>
@@ -157,17 +361,119 @@
     <Compile Include="TBLURUNTAKIP.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Formlar\AraçlarSekmesi\FrmDovizKurlari.resx">
+      <DependentUpon>FrmDovizKurlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\AraçlarSekmesi\FrmExcel.resx">
+      <DependentUpon>FrmExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\AraçlarSekmesi\FrmHaberler.resx">
+      <DependentUpon>FrmHaberler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\AraçlarSekmesi\FrmHesapMakinesi.resx">
+      <DependentUpon>FrmHesapMakinesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\AraçlarSekmesi\FrmWord.resx">
+      <DependentUpon>FrmWord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\AraçlarSekmesi\FrmYardim.resx">
+      <DependentUpon>FrmYardim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\AraçlarSekmesi\FrmYeniNot.resx">
+      <DependentUpon>FrmYeniNot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\CarilerSekmesi\FrmCariIstatistigi.resx">
+      <DependentUpon>FrmCariIstatistigi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\CarilerSekmesi\FrmCariListesi.resx">
+      <DependentUpon>FrmCariListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\CarilerSekmesi\FrmYeniCari.resx">
+      <DependentUpon>FrmYeniCari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FaturalarSekmesi\FrmCariHareketleri.resx">
+      <DependentUpon>FrmCariHareketleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FaturalarSekmesi\FrmDetayliFaturaSorgulama.resx">
+      <DependentUpon>FrmDetayliFaturaSorgulama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FaturalarSekmesi\FrmFaturaPdf.resx">
+      <DependentUpon>FrmFaturaPdf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FaturalarSekmesi\FrmFaturayaKalemGirisi.resx">
+      <DependentUpon>FrmFaturayaKalemGirisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FaturalarSekmesi\FrmPasifFatura.resx">
+      <DependentUpon>FrmPasifFatura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FaturalarSekmesi\FrmPersonelHareketleri.resx">
+      <DependentUpon>FrmPersonelHareketleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FaturalarSekmesi\FrmYeniFaturaGirisi.resx">
+      <DependentUpon>FrmYeniFaturaGirisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\PersonelSekmesi\FrmDepartmanListesi.resx">
+      <DependentUpon>FrmDepartmanListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\PersonelSekmesi\FrmPersonelListesi.resx">
+      <DependentUpon>FrmPersonelListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\PersonelSekmesi\FrmYeniDepartman.resx">
+      <DependentUpon>FrmYeniDepartman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\PersonelSekmesi\FrmYeniPersonel.resx">
+      <DependentUpon>FrmYeniPersonel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\UrunlerSekmesi\FrmBarkodOlustur.resx">
+      <DependentUpon>FrmBarkodOlustur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\UrunlerSekmesi\FrmArizaliUrunAciklama.resx">
+      <DependentUpon>FrmArizaliUrunAciklama.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formlar\UrunlerSekmesi\FrmArizaliUrunListesi.resx">
       <DependentUpon>FrmArizaliUrunListesi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\UrunlerSekmesi\FrmKategoriListesi.resx">
       <DependentUpon>FrmKategoriListesi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\UrunlerSekmesi\FrmMarkaIstatistikleri.resx">
+      <DependentUpon>FrmMarkaIstatistikleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\UrunlerSekmesi\FrmQrKodOlustur.resx">
+      <DependentUpon>FrmQrKodOlustur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\UrunlerSekmesi\FrmUrunAra.resx">
+      <DependentUpon>FrmUrunAra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\UrunlerSekmesi\FrmUrunIstatistikleri.resx">
+      <DependentUpon>FrmUrunIstatistikleri.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formlar\UrunlerSekmesi\FrmUrunListesi.resx">
       <DependentUpon>FrmUrunListesi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\UrunlerSekmesi\FrmYeniArizaliUrunKaydi.resx">
+      <DependentUpon>FrmYeniArizaliUrunKaydi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\UrunlerSekmesi\FrmYeniKategori.resx">
+      <DependentUpon>FrmYeniKategori.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formlar\UrunlerSekmesi\FrmYeniUrun.resx">
       <DependentUpon>FrmYeniUrun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\İletisimSekmesi\FrmMailKutusu.resx">
+      <DependentUpon>FrmMailKutusu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\İletisimSekmesi\FrmRehber.resx">
+      <DependentUpon>FrmRehber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\İletisimSekmesi\FrmSmsGonder.resx">
+      <DependentUpon>FrmSmsGonder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\İletisimSekmesi\FrmYeniMail.resx">
+      <DependentUpon>FrmYeniMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\İstatistiklerSekmesi\FrmKartlar.resx">
+      <DependentUpon>FrmKartlar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ServisMasters.resx">
       <DependentUpon>ServisMasters.cs</DependentUpon>
@@ -231,13 +537,7 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Formlar\AraçlarSekmesi\" />
-    <Folder Include="Formlar\CarilerSekmesi\" />
-    <Folder Include="Formlar\FaturalarSekmesi\" />
-    <Folder Include="Formlar\PersonelSekmesi\" />
     <Folder Include="Formlar\RaporlarSekmesi\" />
-    <Folder Include="Formlar\İletisimSekmesi\" />
-    <Folder Include="Formlar\İstatistiklerSekmesi\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

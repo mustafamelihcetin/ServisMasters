@@ -29,9 +29,7 @@ namespace ServisMasters.Formlar
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmYeniUrun));
-            this.behaviorManager1 = new DevExpress.Utils.Behaviors.BehaviorManager(this.components);
             this.TBYeniUrunEkleUrunAdi = new DevExpress.XtraEditors.TextEdit();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.TBYeniUrunEkleMarka = new DevExpress.XtraEditors.TextEdit();
@@ -55,7 +53,7 @@ namespace ServisMasters.Formlar
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.BtnUrunEkleVazgec = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
+            this.fluentDesignFormContainer1 = new DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormContainer();
             ((System.ComponentModel.ISupportInitialize)(this.TBYeniUrunEkleUrunAdi.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TBYeniUrunEkleMarka.Properties)).BeginInit();
@@ -243,7 +241,8 @@ namespace ServisMasters.Formlar
             // 
             // pictureEdit7
             // 
-            this.pictureEdit7.EditValue = global::ServisMasters.Properties.Resources.icons8_data_recovery_120px;
+            this.pictureEdit7.EditValue = ((object)(resources.GetObject("pictureEdit7.EditValue")));
+            this.pictureEdit7.Enabled = false;
             this.pictureEdit7.Location = new System.Drawing.Point(92, 12);
             this.pictureEdit7.Name = "pictureEdit7";
             this.pictureEdit7.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
@@ -360,7 +359,7 @@ namespace ServisMasters.Formlar
             // labelControl1
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 13F, System.Drawing.FontStyle.Bold);
-            this.labelControl1.Appearance.ForeColor = System.Drawing.Color.Transparent;
+            this.labelControl1.Appearance.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.labelControl1.Appearance.Options.UseFont = true;
             this.labelControl1.Appearance.Options.UseForeColor = true;
             this.labelControl1.Location = new System.Drawing.Point(188, 36);
@@ -369,11 +368,22 @@ namespace ServisMasters.Formlar
             this.labelControl1.TabIndex = 23;
             this.labelControl1.Text = "YENİ ÜRÜN";
             // 
+            // fluentDesignFormContainer1
+            // 
+            this.fluentDesignFormContainer1.Appearance.BorderColor = System.Drawing.Color.RoyalBlue;
+            this.fluentDesignFormContainer1.Appearance.Options.UseBorderColor = true;
+            this.fluentDesignFormContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fluentDesignFormContainer1.Location = new System.Drawing.Point(0, 0);
+            this.fluentDesignFormContainer1.Name = "fluentDesignFormContainer1";
+            this.fluentDesignFormContainer1.Size = new System.Drawing.Size(403, 613);
+            this.fluentDesignFormContainer1.TabIndex = 24;
+            // 
             // FrmYeniUrun
             // 
+            this.Appearance.BorderColor = System.Drawing.Color.RoyalBlue;
+            this.Appearance.Options.UseBorderColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(109)))), ((int)(((byte)(156)))));
             this.ClientSize = new System.Drawing.Size(403, 613);
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.BtnUrunEkleVazgec);
@@ -398,12 +408,13 @@ namespace ServisMasters.Formlar
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.TBYeniUrunEkleUrunAdi);
             this.Controls.Add(this.pictureEdit1);
+            this.Controls.Add(this.fluentDesignFormContainer1);
+            this.FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.Glow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmYeniUrun";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ürün Ekle";
             this.Load += new System.EventHandler(this.FrmYeniUrun_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TBYeniUrunEkleUrunAdi.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TBYeniUrunEkleMarka.Properties)).EndInit();
@@ -430,7 +441,6 @@ namespace ServisMasters.Formlar
         }
 
         #endregion
-        private DevExpress.Utils.Behaviors.BehaviorManager behaviorManager1;
         private DevExpress.XtraEditors.PictureEdit pictureEdit1;
         private DevExpress.XtraEditors.TextEdit TBYeniUrunEkleUrunAdi;
         private DevExpress.XtraEditors.PanelControl panelControl1;
@@ -454,5 +464,6 @@ namespace ServisMasters.Formlar
         private DevExpress.XtraEditors.SimpleButton BtnUrunEkleKaydet;
         private DevExpress.XtraEditors.SimpleButton BtnUrunEkleVazgec;
         private DevExpress.XtraEditors.LabelControl labelControl1;
+        private DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormContainer fluentDesignFormContainer1;
     }
 }

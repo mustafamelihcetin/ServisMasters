@@ -17,5 +17,31 @@ namespace ServisMasters.Formlar.UrunlerSekmesi
         {
             InitializeComponent();
         }
+        DbTeknikServisEntities db = new DbTeknikServisEntities();
+
+
+        public void gridViewSecilenSutunlariYaz()
+        {
+            var deger = from u in db.TBLARIZADETAY
+                        select new
+                        {
+                            u.ARIZAID,
+                            u.ISLEM,
+                            u.SORUN,
+                            u.ACIKLAMA,                            
+                            u.ONFIYAT,
+                            u.NETFIYAT,
+                            u.ISLEMLER
+                            
+                        };
+            gridControl1.DataSource = deger.ToList();
+        }
+        private void FrmArizaliUrunListesi_Load(object sender, EventArgs e)
+        {
+            gridViewSecilenSutunlariYaz();
+            gridView1.BestFitColumns();
+            lookUpEditTBUrunİslemleriKategori.Properties.DataSource = db.TBLARIZADETAY.ToList();
+
+        }
     }
 }

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace ServisMasters.Formlar
 {
-    public partial class FrmYeniUrun : Form
+    public partial class FrmYeniUrun : DevExpress.XtraEditors.XtraForm
     {
         public FrmYeniUrun()
         {

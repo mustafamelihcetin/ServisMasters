@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace ServisMasters.Formlar
 {
-    public partial class FrmUrunListesi : Form
+    public partial class FrmUrunListesi : DevExpress.XtraEditors.XtraForm
     {
         public FrmUrunListesi()
         {
@@ -34,9 +34,23 @@ namespace ServisMasters.Formlar
         private void FrmUrunListesi_Load(object sender, EventArgs e)
         {
             gridViewSecilenSutunlariYaz();
+            gridView1.BestFitColumns();
             //var degerler = db.TBLURUN.ToList();
             //gridControl1.DataSource = degerler;
             lookUpEditTBUrunİslemleriKategori.Properties.DataSource = db.TBLKATEGORI.ToList();
+
+        }
+        private void gridControl1_CustomDrawCell(object sender, DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs e)
+        {
+            if (e.Column.FieldName == "ALISFIYAT" || e.Column.FieldName == "SATIS")
+            {
+                // Sadece hücrenin içeriği boş değilse simge ekleyin
+                if (!string.IsNullOrEmpty(e.CellValue?.ToString()))
+                {
+                    // Hücrenin içeriğine ₺ simgesi ekleyin
+                    e.DisplayText = "₺" + e.CellValue.ToString();
+                }
+            }
         }
         public void GridGuncelle()
         {
@@ -108,7 +122,6 @@ namespace ServisMasters.Formlar
             MessageBox.Show("Ürün başarıyla güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             GridGuncelle();
         }
-
 
     }
 }

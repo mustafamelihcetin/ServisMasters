@@ -30,6 +30,7 @@ namespace ServisMasters.Formlar
         private void FrmKategoriListesi_Load(object sender, EventArgs e)
         {
             gridViewSecilenSutunlariYaz();
+            gridView1.BestFitColumns();
         }
 
 
