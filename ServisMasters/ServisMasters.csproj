@@ -521,6 +521,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Content Include="ScreenShot\ServisMasters_UrunListesiScreenShot.png" />
     <None Include="Resources\icons8_ok_120px.png" />
     <None Include="Resources\icons8_data_recovery_120px.png" />
     <None Include="Resources\icons8_category_120px.png" />
