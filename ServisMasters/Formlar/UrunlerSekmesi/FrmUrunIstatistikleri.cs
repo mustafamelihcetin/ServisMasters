@@ -17,5 +17,9 @@ namespace ServisMasters.Formlar.UrunlerSekmesi
         {
             InitializeComponent();
         }
+
+        private void FrmUrunIstatistikleri_Load(object sender, EventArgs e)
+        {
+        }
     }
 }

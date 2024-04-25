@@ -521,6 +521,26 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\Bosch-logo.svg.png" />
+    <None Include="Resources\Arçelik-Logo.wine.png" />
+    <None Include="Resources\arcelik-logo-4275A5066A-seeklogo.com.png" />
+    <None Include="Resources\AsusTek-black-logo.png" />
+    <None Include="Resources\Siemens-logo.svg.png" />
+    <None Include="Resources\Profilo_Logo.png" />
+    <None Include="Resources\New_Beko_logo.svg.png" />
+    <None Include="Resources\Grundig_Intermedia_logo.svg.png" />
+    <None Include="Resources\MSI-Logo-2011.png" />
+    <None Include="Resources\unnamed.png" />
+    <None Include="Resources\Samsung-logo-png.png" />
+    <None Include="Resources\Toshiba_logo.svg.png" />
+    <None Include="Resources\LG_logo_%282014%29.svg.png" />
+    <None Include="Resources\icons8_chart_480px.png" />
+    <None Include="Resources\icons8_chart_2.ico" />
+    <None Include="Resources\icons8_chart_3.ico" />
+    <None Include="Resources\icons8_Warning_Shield.ico" />
+    <None Include="Resources\icons8_today.ico" />
+    <None Include="Resources\icons8_summary_list.ico" />
+    <None Include="Resources\icons8_categorize.ico" />
     <Content Include="ScreenShot\ServisMasters_UrunListesiScreenShot.png" />
     <None Include="Resources\icons8_ok_120px.png" />
     <None Include="Resources\icons8_data_recovery_120px.png" />
