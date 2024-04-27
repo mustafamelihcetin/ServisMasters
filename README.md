@@ -24,7 +24,7 @@ ServisMasters, Visual Studio 2022 kullanılarak DevExpress bileşenleri ile olu�
 
 - **IDE:** Visual Studio 2022
 - **UI Bileşenleri:** DevExpress
-- **Programlama Dili:** C#
+- **Programlama Dili:** C#, Winforms (.Net Framework)
 - **Veritabanı:** MSSQL (SQL Server)
 
 ## Proje Genel Bakışı
@@ -66,7 +66,7 @@ ServisMasters is a Windows Form application developed using Visual Studio 2022 w
 
 - **IDE:** Visual Studio 2022
 - **UI Components:** DevExpress
-- **Programming Language:** C#
+- **Programming Language:** C#, Winforms (.Net Framework)
 - **Database:** MSSQL (SQL Server)
 
 ## Project Overview
