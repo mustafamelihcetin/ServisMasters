@@ -128,8 +128,23 @@ namespace ServisMasters
 
         private void BtnQrKodOlustur_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.UrunlerSekmesi.FrmQrKodOlustur fr = new Formlar.UrunlerSekmesi.FrmQrKodOlustur();
-            FormuGoruntuleVeOdakla(fr);
+            if (!IsFormOpen(typeof(Formlar.UrunlerSekmesi.FrmQrKodOlustur)))
+            {
+                Formlar.UrunlerSekmesi.FrmQrKodOlustur fr = new Formlar.UrunlerSekmesi.FrmQrKodOlustur();
+                fr.Show();
+            }
+            else
+            {
+                // Form zaten açıksa, ona odaklan
+                foreach (Form form in Application.OpenForms)
+                {
+                    if (form is Formlar.UrunlerSekmesi.FrmQrKodOlustur)
+                    {
+                        form.Focus();
+                        break;
+                    }
+                }
+            }
         }
 
         private void BtnBarkodOlustur_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)

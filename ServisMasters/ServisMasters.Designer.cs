@@ -1086,7 +1086,8 @@
             this.MinimumSize = new System.Drawing.Size(1278, 691);
             this.Name = "Form1";
             this.Ribbon = this.ribbonControl3;
-            this.Text = "Servis Masters";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Servis Masters (BETA)";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl2)).EndInit();

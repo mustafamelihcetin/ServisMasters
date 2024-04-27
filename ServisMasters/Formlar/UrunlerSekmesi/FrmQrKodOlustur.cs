@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MessagingToolkit.QRCode.Codec;
 
 namespace ServisMasters.Formlar.UrunlerSekmesi
 {
@@ -16,6 +17,12 @@ namespace ServisMasters.Formlar.UrunlerSekmesi
         public FrmQrKodOlustur()
         {
             InitializeComponent();
+        }
+
+        private void BtnQrKodOlusturQrOlustur_Click(object sender, EventArgs e)
+        {
+            QRCodeEncoder encoder = new QRCodeEncoder();
+            pictureBox1.Image = encoder.Encode(TbQrKodOlusturSeriNo.Text);
         }
     }
 }
